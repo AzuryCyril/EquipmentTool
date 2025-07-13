@@ -142,7 +142,7 @@
             "title": "Kuai Liang's Bracers",
             "type": "Accessory",
             "url": "23.jpg",
-            "passive": "20-40% Basic attack damage boost.\n10-50% Damage boost. Lin Kuei Tower only.\n20-100% Max Health Boost. Lin Kuei Tower only.\n[SUB-ZERO] [SET] If this is equipped with another 1 card from Kuai Liang's set, Diamond Characters gain a 40% chance to perform a Special Combo Ender dealing massive damage. If it is the last opponent and they are under 25% health, Sub-Zero performs a Brutality instead, ending the fight Immediately.\n[Fusion Level X] 20% Chance to apply Freeze when an opponent blocks Basic Attack."
+            "passive": "20-40% Basic attack damage boost.\n10-50% Damage boost. Lin Kuei Tower only.\n20-100% Max Health Boost. Lin Kuei Tower only.\n[SUB-ZERO] [SET] If this is equipped alongside Kuai Liang's Scepter, Any Diamond or ASCENDED Fusion V Sub-Zero gain a 40% chance to perform a Special Combo Ender dealing massive damage. If it is the last opponent and they are under 25% health, Sub-Zero performs a Brutality instead, ending the fight Immediately.\n[Fusion Level X] 20% Chance to apply Freeze when an opponent blocks Basic Attack."
         },
         {
             "title": "Ice Bomb",
@@ -160,19 +160,19 @@
             "title": "Black Dragon Sword",
             "type": "Weapon",
             "url": "26.jpg",
-            "passive": "20-50% Basic attack damage boost against enemies affected by Fire, Bleed, or Poison.\n20-150% Damage boost. Black Dragon Tower only.\n[Fusion Level X] 20% Max Health boost."
+            "passive": "10-20% Chance to apply Bleed, Fire or Poison on Combo Enders\n20-150% Damage boost. Black Dragon Tower only.\n[Fusion Level X] 30% of damage dealt to the tagged-in opponent by DOTs is transferred to the user as health over time"
         },
         {
             "title": "Dragon Teeth",
             "type": "Weapon",
             "url": "27.jpg",
-            "passive": "20-80% Basic attack damage boost against opponent with less than 50% of health.\n20-150% Damage boost. Black Dragon Tower only.\n[Fusion Level X] 75% Critical Hit damage boost."
+            "passive": "50% Critical attack damage boost when the user has less than 50% of Health\n20-150% Damage boost. Black Dragon Tower only.\n[Fusion Level X] Gain Luck at the start of the match and on tag-in for 15sec"
         },
         {
             "title": "Kobra's Boxing Gloves",
             "type": "Weapon",
             "url": "28.jpg",
-            "passive": "30-80% Resistance to Slow and Stun.\n20-150% Damage boost. Black Dragon Tower only.\n[Fusion Level X] 50% Basic attack damage boost."
+            "passive": "30% Chance to apply Slow on successful Special Attack 1\n20-150% Damage boost. Black Dragon Tower only.\n[Fusion Level X] 35% Damage boost against enemies affected by Stun or Slow"
         },
         {
             "title": "Fire Garden Bell",
@@ -761,19 +761,19 @@
             "title": "Nomad's Deadly Vapors",
             "type": "Accessory",
             "url": "63.jpg",
-            "passive": "20-80% Chance to apply Poison for 6 seconds to the active enemy at the start of the match when equipped on active fighter.\n10-25% Chance to apply Poison to the enemy after gaining Speed.\n15-155% Damage boost. Black Dragon Tower only.\n30-310% Health boost. Black Dragon Tower only.\n[KABAL] [SET] If this is equipped along with Nomad's Buzz Saw, Diamond Character gains a 40% chance to perform a Special Combo Ender dealing massive damage. If it is the last opponent and they are under 25% health, Character performs a Brutality instead, ending the fight immediately.\n[Fusion Level X] 40% Damage boost against enemies affected by Poison."
+            "passive": "70% Chance to apply Poison on the user's tag-in.\nEach succesful Combo Ender has a 60% chance to apply its damage to the whole enemy's team\n10-150% Damage boost. Black Dragon Tower only.\n20-300% Health boost. Black Dragon Tower only.\n[KABAL] [SET] If this is equipped along with Nomad's Buzz Saw, Any Diamond or Ascended Fusion V Kabal gains a 40% chance to perform a Special Combo Ender dealing massive damage. If it is the last opponent and they are under 25% health, Character performs a Brutality instead, ending the fight immediately.\n[Fusion Level X] if user's Poison is resisted by the opponent, there is a 40% chance that 40% damage of base Attack will be dealt to the opponent instead."
         },
         {
             "title": "Scoundrel's Elbow Blades",
             "type": "Accessory",
             "url": "64.jpg",
-            "passive": "50-100% Chance to apply Bleed when Cripple or Weaken is applied.\n30-80% Basic damage boost against opponents with less than 30% Health.\n15-155% Damage boost. Black Dragon Tower only.\n30-310% Health boost. Black Dragon Tower only.\n[KANO] [SET] If this is equipped with another 1 card from Scoundrel's set, Diamond Character gains a 40% chance to perform a Special Combo Ender dealing massive damage. If it is the last opponent and they are under 25% health, Kano performs a Brutality instead, ending the fight immediately.\n[Fusion Level X] 100% Critical Damage boost when user is below 50% Health."
+            "passive": "35% Basic Attacks unblockable chance. +5% additional chance for enemies affected by Cripple or Weaken\n30-80% Basic damage boost against opponents with less than 50% Health.\n15-155% Damage boost. Black Dragon Tower only.\n20-300% Health boost. Black Dragon Tower only.\n[KANO] [SET] If this is equipped alongside Scoundrel's Cybernetic Heart, Any Diamond Kano gains a 40% chance to perform a Special Combo Ender dealing massive damage. If it is the last opponent and they are under 25% health, Kano performs a Brutality instead, ending the fight immediately.\n[Fusion Level X] 20% Chance to apply Curse on Block Breaker attack."
         },
         {
             "title": "Stone Fists",
             "type": "Weapon",
             "url": "65.jpg",
-            "passive": "10-20% Attack boost.\n35-285% Damage boost. Black Dragon Tower only.\n[TREMOR] 10-20% Chance to apply Stun on Combo Ender for 3 seconds.\n[Fusion Level X] 100% Critical Hit Chance boost against stunned enemies."
+            "passive": "20% Chance to steal 5% of the opponent's Max Power on successful Combo Enders\nUser gains 5% Special Attack Damage boost after performing any successful Special Attack. Max 20% damage boost\n50-300% Damage boost. Black Dragon Tower only.\n[TREMOR] 10-20% Chance to apply Stun on Combo Ender for 3 seconds.\n[Fusion Level X] After 8 successful Basic Attacks, incoming damage is reduced by 5%. Each Basic Attack on Stunned opponents counts as 2. Max Damage reduction - 40%. Resets upon's tag-out."
         },
         {
             "title": "Specter's Infernal Chains",
@@ -1213,7 +1213,7 @@
             "title": "Kuai Liang's Scepter",
             "type": "Weapon",
             "url": "21.jpg",
-            "passive": "0.5-1.5% Bar of starting Power.\n50-100% Lethal Blow chance against enemies affected by Freeze: +300% damage.\n100-500% Damage boost. Lin Kuei Tower only.\n[SUB-ZERO] [SET] If this is equipped with another 1 card from Kuai Liang’s set, Diamond Character gain a 40% chance to perform a Special Combo Ender dealing massive damage. If it is the last opponent and they are under 25% health, Sub-Zero performs a Brutality instead, ending the fight immediately.\n[Fusion Level X] 100% Chance to apply Bleed when hitting an opponent affected by Freeze."
+            "passive": "0.5-1.5% Bar of starting Power.\n50-100% Lethal Blow chance against enemies affected by Freeze: +300% damage.\n100-500% Damage boost. Lin Kuei Tower only.\n[SUB-ZERO] [SET] If this is equipped alongside Kuai Liang's Bracers, Any Diamond or Ascended Fusion V Sub-Zero gain a 40% chance to perform a Special Combo Ender dealing massive damage. If it is the last opponent and they are under 25% health, Sub-Zero performs a Brutality instead, ending the fight immediately.\n[Fusion Level X] 100% Chance to apply Bleed when hitting an opponent affected by Freeze."
         },
         {
             "title": "Nomad's Buzz Saw",
@@ -1225,7 +1225,7 @@
             "title": "Psych Bomb",
             "type": "Accessory",
             "url": "23.jpg",
-            "passive": "On tag-in, Psych Bomb is tossed at the opponent, dealing 200-400% of its base damage.\nPsych Bomb has a 30-80% chance to apply stun for 3 seconds.\n75-220% Damage boost; Black Dragon Tower only.\n150-450% Max Health boost; Black Dragon Tower only.\n20-40% Chance to also apply Cripple when stunning an opponent.\n50% Reduced power cost on Special Attack 2. (Unlocks at fusion level X)"
+            "passive": "On tag-in, Psych Bomb is tossed at the opponent, dealing 20-40% damage of base Attack.\nPsych Bomb has a 30-80% chance to apply stun for 3 seconds.\n15-30% Chance to apply Cripple on Combo Enders.\n75-220% Damage boost; Black Dragon Tower only.\n150-450% Max Health boost; Black Dragon Tower only.\nGain Power Steal on Basic Attacks against Crippled opponents. (Unlocks at fusion level X)"
         },
         {
             "title": "Scoundrel's Cybernetic Heart",
@@ -1237,7 +1237,247 @@
             "title": "Smuggler's Luck",
             "type": "Accessory",
             "url": "25.jpg",
-            "passive": "30-60% Chance to gain Luck after Special Attack 1;\nSpecial Attack 1 deals 10-20% more damage after each use, stacks up to 5 times.\n75-225% Damage boost; Black Dragon Tower only.\n150-450% Max Health boost; Black Dragon Tower only.\nOn tag-out, gain Dispel. (Unlocks at fusion level X)"
+            "passive": "30-60% Chance to gain Luck after Special Attack 1;\nSpecial Attack 1 deals 10-20% more damage after each use, stacks up to 5 times.\n75-225% Damage boost; Black Dragon Tower only.\n150-450% Max Health boost; Black Dragon Tower only.\n10% Chance to gain Dispel after a successful critical hit (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Specter's Burning Vengeance",
+            "type": "Armor",
+            "url": "26.jpg",
+            "passive": "User deals additional damage to opponent team and applies Team Fire on Special Attack 3-5 times per battle. These Fires can stack;\n20-40% Chance to gain 0.5 Bar of power when opponents resist a debuff;\n300-1200% Max Health boost. Shirai Ryu Tower only.\n[SCORPION][SET] If this is equipped alongside Specter's Infernal Chains, any DIAMOND or ASCENDED Scorpion gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\nUser explodes into flames when defeated, dealing 30% (15% for Bosses) damage of max HP to all opponents and applying Team Shield Break. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Champion's Nunchaku",
+            "type": "Weapon",
+            "url": "27.jpg",
+            "passive": "10-20% Chance to steal 5% of opponent's Max Power on successful Basic Combo Attacks;\n50-100% Chance to gain random attack buff for 12sec upon Special Attack 2 use;\n150-600% Damage boost. Shirai Ryu Tower only.\n[LIU KANG][SET] If this is equipped alongside Champion's Leather Bracers, any DIAMOND or ASCENDED Liu Kang gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[LIU KANG] When a teammate tags-in, Liu Kang throws Dragon Fire from the sidelines, dealing high damage with a 50-100% chance to apply Fire. \nUpon stealing opponent's power the user increases duration of all his active buffs for 3sec. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Edenian Bracelets",
+            "type": "Accessory",
+            "url": "28.jpg",
+            "passive": "20-40% Power generation boost.\nFor each Bar of power acquired by the user while tagged-in, with a 34-50% chance Blind is applied to the opponent for 7sec.\n75-225% Damage boost. Shirai Ryu Tower only.\n150-450% Max Health boost. Shirai Ryu Tower only.\n[JADE][SET] If this is equipped alongside Edenian Force Rejection Field, any DIAMOND or ASCENDED Jade gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[JADE] Once per match, Jade avoids death by automatically tagging out before the killing blow and applying Team Blind. This effect does not trigger if the killing blow is Brutality.\nWith a 30% chance user will automatically perform Special Attack 3 or Fatal Blow/X-Ray instead of Special Attack 1 against a Blinded opponent. Max 2 times per match. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Edenian Force Rejection Field",
+            "type": "Armor",
+            "url": "29.jpg",
+            "passive": "Health is increased and restored by 10-20% after performing any successful Special Attack. Max 3 times in the battle;\nOpponents affected by Blind have a 30-70% chance to also miss during Special Attacks.\n300-1200% Max Health boost. Shirai Ryu Tower only.\n[JADE][SET] If this is equipped alongside Edenian Bracelets, any DIAMOND or ASCENDED Jade gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n50% Chance to reflect any debuff back to an opponent. Team debuffs are not affected. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Bi-Han's Tormentor",
+            "type": "Weapon",
+            "url": "30.jpg",
+            "passive": "5-15% Lethal Blow chance.\n10-20% Reduced Power cost on all Special Attacks.\n150-600% Damage boost. Nightmare Tower only.\n[NOOB SAIBOT] [SET] If this is equipped alongside Bi-Han's Visage, any Diamond Noob Saibot gain 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] [NOOB SAIBOT] Gain 1 Bar of Power after any teammate or ally Summon is defeated."
+        },
+        {
+            "title": "Demon Bat",
+            "type": "Accessory",
+            "url": "31.jpg",
+            "passive": "After performing any Special Attack, a demon bat also attacks the victim, dealing additional damage and applying Bleed while dying in the process. Demon Bat respawns every 30-10 seconds.\n20-30% Power generation boost.\n75-225% Damage boost. Nightmare Tower only.\n150-450% Max health boost. Nightmare Tower only.\n[Fusion Level X] When Demon Bat attacks an opponent affected by Bleed, user heals for 20% of the victim's max health."
+        },
+        {
+            "title": "Thunder Lord's Stormweaver",
+            "type": "Weapon",
+            "url": "32.jpg",
+            "passive": "15-25% Attack boost.\n30-100% Chance to gain Dispel after performing a Special Attack.\n150-600% Damage boost. Nightmare Tower only.\n[RAIDEN] 10-30% Chance lightning will strike the opponent on basic attack, dealing additional Damage.\n[RAIDEN] [SET] If this equipped alongside Thunder Lord's Sigil, any DIAMOND Raiden gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] 1.5 Bar of starting Power."
+        },
+        {
+            "title": "Killer Jacket",
+            "type": "Armor",
+            "url": "33.jpg",
+            "passive": "10-60% Toughness boost.\n30-100% Chance to gain Shield after suffering from a Lethal Blow.\n300-1200% Max health boost. Nightmare Tower only.\n[Fusion Level X] Gain Shield at the start of the match."
+        },
+        {
+            "title": "Bloodmaster's Iron Curtain",
+            "type": "Armor",
+            "url": "34.jpg",
+            "passive": "20-50% Max health boost.\nBleed lasts 10-50% longer.\n300-1200% Max health boost. Kold War Tower only.\n[SKARLET] 15-25% Chance to convert 50% damage to Health on Special Attack 1.\n[SKARLET] [SET] If this is equipped alongside Bloodmaster's Bloody Finka, any DIAMOND Skarlet gains 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] Immunity to all DOTs including Dark Magic."
+        },
+        {
+            "title": "General's Father Gun",
+            "type": "Weapon",
+            "url": "35.jpg",
+            "passive": "30-60% Damage boost against enemies affected by Stun.\n30-50% Basic Attacks unblockable chance.\n150-600% Damage boost. Kold War Tower only.\n[SONYA BLADE] 10-30% Unblockable chance on all Special Attacks.\n[SONYA BLADE] [SET] If this is equipped alongside General's Knockout Gloves, any DIAMOND Sonya Blade gains 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] 50% Chance to apply Shield Break on Special Attack 1."
+        },
+        {
+            "title": "Missile Gap",
+            "type": "Weapon",
+            "url": "36.jpg",
+            "passive": "30-70% Critical Hit Chance boost.\n3-13% Chance a missile counter-attacks whenever hit by an opponent.\n150-600% Damage boost. Kold War Tower only.\n[Fusion Level X] Missile bombing applies Stun to an opponent for 3 seconds."
+        },
+        {
+            "title": "Weather Warfare",
+            "type": "Accessory",
+            "url": "37.jpg",
+            "passive": "Frozen opponents remain frozen up for 2-4 successive hit.\n50-100% Chance to also apply Frostbite when freezing an opponent.\n75-225% Damage boost. Kold War Tower only.\n150-450% Max Health boost. Kold War Tower only.\n[Fusion Level X] A gust of wind Freezes tagged-in opponent."
+        },
+        {
+            "title": "Acid Dragon's Deathly Vial",
+            "type": "Accessory",
+            "url": "38.jpg",
+            "passive": "10-20% Power generation boost.\n40-70% Chance to gain 7% max Power for all teammates after the user successfully applies Poison or Bleed to an opponent.\n75-225% Damage boost. Sorcerer's Tower only.\n150-450% Max Health boost. Sorcerer's Tower only.\n[REPTILE] Basic attacks heal for 20-50% of damage done to opponents affected by Poison.\n[REPTILE] [SET] If this is equipped alongside Acid Dragon's Tekko-Kagi, any DIAMOND Reptile gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] Power Drain applied to the owner is reflected onto an opponent and is turned into Power Steal that grants 50% of draining Power."
+        },
+        {
+            "title": "Serpent Kusarigama",
+            "type": "Weapon",
+            "url": "39.jpg",
+            "passive": "50-100% Critical Hit Chance boost when below 40% Health.\n30-50% Chance to gain Speed increased for 5s after performing a Combo Ender.\n150-600% Damage boost. Sorcerer's Tower only.\n[Fusion Level X] Critical Hits have 70% chance to Vampire the damage when below 40% Health."
+        },
+        {
+            "title": "Soul Reaver's Servant",
+            "type": "Weapon",
+            "url": "40.jpg",
+            "passive": "10-20% Chance to apply Curse on Critical Hit.\n15-35% Damage boost against enemies affected by Cripple.\n150-600% Damage boost. Sorcerer's Tower only.\n[SHANG TSUNG] When Shang Tsung defeat an opponent, he and his teammates gain the defeated opponents remaining Power, distributing it equally among them.\n[SHANG TSUNG] [SET] If this is equipped alongside Soul Reaver's King Kobra Belt, any DIAMOND Shang Tsung gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] Curse debuffs can stack up 2 times."
+        },
+        {
+            "title": "Varan Jacket",
+            "type": "Armor",
+            "url": "41.jpg",
+            "passive": "15-35% Chance to dodge a Special Attack.\n40% Chance opponent's Basic Attack Critical Hit heal for 20-50% of incoming damage instead of dealing damage.\n300-1200% Max Health boost. Sorcerer's Tower only.\n[Fusion Level X] Damage from Special Attacks is reduced by 50%."
+        },
+        {
+            "title": "Divine Argus Cloak",
+            "type": "Armor",
+            "url": "42.jpg",
+            "passive": "25-55% Max Health boost.\n70-100% Chance to apply random negative effects to an opponent who performed a Block Breaker attack against user. Max 3 negative effects on the opponent simultaneously.\n300-1200% Max Health boost. Edenian Tower only.\n[RAIN] Whenever Rain applies Soaked there is 20-50% chance it spreads to the whole opponent team.\n[RAIN] [SET] If this is equipped alongside Divine Tornadic Pauldron, any DIAMOND Rain gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] 15% Chance to gain Invulnerability for 5sec whenever affected by a negative effect."
+        },
+        {
+            "title": "Dynasty Mask of Madness",
+            "type": "Accessory",
+            "url": "43.jpg",
+            "passive": "20-40% Resistance to all debuffs.\nPower Drain, Weaken and Shield Break effects applied to the opponent are 15-35% more effective.\n75-225% Damage boost. Edenian Tower only.\n150-450% Max Health boost. Edenian Tower only.\n[KITANA] After a Special Attack performed against Kitana, she gains 50% Power generation boost.\n[KITANA] [SET] If this is equipped alongside Dynasty Parade Uniform, any DIAMOND Kitana gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] 30% Chance perform Special Attack 1 with zero Power cost."
+        },
+        {
+            "title": "King Jerrod's Spear",
+            "type": "Weapon",
+            "url": "44.jpg",
+            "passive": "0.5-1.5 Bar of starting Power.\n25-50% Chance to apply Snare on any Special Attack.\n150-600% Damage boost. Edenian Tower only.\n[Fusion Level X] 10% Chance Basic Attacks cause Lightning strike that deals 5% max Health damage to the opponent."
+        },
+        {
+            "title": "Princess Guard",
+            "type": "Weapon",
+            "url": "45.jpg",
+            "passive": "5-15% Lethal Blow Chance boost.\nSpecial Attack 2 applies Incurability debuff to whole opponent team for 5-15sec. Incurability cancels opponent's healing effects. Any healing, including Recovery, is also restricted while Incurability is active.\n150-600% Damage boost. Edenian Tower only.\n[Fusion Level X] When user applies Lethal Blow, next hit base damage is 150% higher."
+        },
+        {
+            "title": "Famous Fashion Dominator",
+            "type": "Armor",
+            "url": "46.jpg",
+            "passive": "35-55% Max Health boost.\n40-70% Chance to apply Blind to an opponent for using a Special Attack against the user.\n300-1200% Max Health boost. Earthrealm Tower only.\n[JOHNNY CAGE] [SET] If this is equipped alongside Famous Dashing Smile, any DIAMOND Johnny Cage gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[JOHNNY CAGE] 5-10% Power generation boost after performing a successful Special Attack. Stackes up to 5 times.\n[Fusion Level X] Gain Energy Shield when below 80% Health. Energy Shield reduced all incoming damage when user loses health. The more Health is lost, the higher is Energy Shield damage reduction. Maximum reduction - 50% at 20% Health and below."
+        },
+        {
+            "title": "Jinsei Hat",
+            "type": "Accessory",
+            "url": "47.jpg",
+            "passive": "30-50% Critical Hit chance boost.\n10%-20% Chance to apply Weaken, Shield Break or Curse on a Critical Hit.\n75-225% Damage boost. Earthrealm Tower only.\n150-450% Max Health boost. Earthrealm Tower only.\n[Fusion Level X] Once per match, avoid death by automatically tagging out before the killing blow. After tag-out user gains 1000% Recovery for 7sec. This effect does not trigger if the killing blow is a Brutality."
+        },
+        {
+            "title": "The Torturer",
+            "type": "Weapon",
+            "url": "48.jpg",
+            "passive": "Debuffs applied to an opponent are 10-30% more powerful. This applies to Bleed, Fire, Poison, Blind, Weaken, Curse, Shield Break, Vampire, Power Drain, and Power Steal.\n30-50% Chance to apply Fire, Bleed or Poison on Combo Ender.\n150-600% Damage boost. Earthrealm Tower only.\n[Fusion Level X] 50% Chance to reflect any debuff back to an opponent. Team debuffs are not affected."
+        },
+        {
+            "title": "Wushu Master's Guandao Blade",
+            "type": "Weapon",
+            "url": "49.jpg",
+            "passive": "50% Chance Basic Attacks deal 30-50% of damage to all opponents.\n10-30% Damage boost after tag-in for 15 seconds. All following damage boosts gained from this Equipment is 15% more powerful. Max 75% damage boost.\n150-600% Damage boost. Earthrealm Tower only.\n[KUNG LAO] Whenever opponent uses a Special Attack, gain 10-20% Critical Hit chance boost till the end of the match. Can stack up to 5 times.\n[KUNG LAO] [SET] If this is equipped alongside Wushu Master's True Weapon, any DIAMOND Kung Lao gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] Successful Special 2 Attacks apply Silence debuff for 15 seconds to the opposing team. Silence prevents the affected Characters from using Special Attack 1 and reduces their Power generation by 60%."
+        },
+        {
+            "title": "Jinxed Whip",
+            "type": "Weapon",
+            "url": "50.jpg",
+            "passive": "25-45% Critical Hit chance boost.\nApply Curse on Combo Ender for 10-20sec.\n150-600% Damage boost. Dark Queen's Tower only.\n[Fusion Level X] When an opponent affected by Curse performs a Special Attack, there is a 50% chance to reflect the damage and distribute it evenly to the whole enemy team."
+        },
+        {
+            "title": "The Soul Seeker",
+            "type": "Weapon",
+            "url": "51.jpg",
+            "passive": "30-50% Chance to apply Death Mark on any Special Attack.\nThe user Vampires 5-10% of the damage dealt on all attacks for each active Death Mark on an opponent.\n150-600% Damage boost. Dark Queen's Tower only.\n[Fusion Level X] When an opponent is affected by 3 Death Marks at once, there is a 50% chance to apply Stun on Combo Ender."
+        },
+        {
+            "title": "Wicked Sister's Sultry Gown",
+            "type": "Armor",
+            "url": "52.jpg",
+            "passive": "40-100% Chance to apply Blind to an opponent after their tag-in.\nGain Speed for 5-15sec upon applying Blind to an opponent.\n300-1200% Max health boost. Dark Queen's Tower only.\n[MILEENA] 20-40% Chance any negative effect successfully applied by an opponent to Mileena will grant her 0.5 Bar of power.\n[MILEENA] [SET] If this is equipped alongside Wicked Sister's Festive Mask, any DIAMOND Mileena gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] When in a fight against new opponent, reduce their max Health by 10% (5% for Bosses) and increase the user's max Health by the same amount until the end of the match. Summoned characters are not affected."
+        },
+        {
+            "title": "Wrestling Star's Last Puff",
+            "type": "Accessory",
+            "url": "53.jpg",
+            "passive": "30-40% Basic Attacks unblockable chance.\n50-100% Chance to gain Luck on Block Breaker attack.\n75-225% Damage boost. Dark Queen's Tower only.\n150-450% Max health boost. Dark Queen's Tower only.\n[JAX BRIGGS] Once per match, resurrect, instantly restore 50% Health, and gain 100-200% damage boost with a 30% chance to Power Steal on Basic Attacks for 20 sec. This effects does not trigger if the killing blow is a Brutality.\n[JAX BRIGGS] [SET] If this is equipped alongside Wrestling Star's Jaxophone, any DIAMOND Jax Briggs gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] 50% Chance Critical Hit on Basic Attacks deals additional 1% max Health damage and inevitably exhausts 10% of opponent's max Power."
+        },
+        {
+            "title": "Ceremonial Pipe",
+            "type": "Accessory",
+            "url": "54.jpg",
+            "passive": "Gain 50-100% Damage boost while the character is not affected by any debuff.\nWhenever an opponent tries to apply a positive effect on themselves, there is a 70-100% chance to steal the effect for the user. Unique personal buffs can't be stolen.\n75-225% Damage boost. Elder Wind Tower only.\n150-450% Max health boost. Elder Wind Tower only.\n[Fusion Level X] 30% Chance to apply a random buff to the user on Combo Ender."
+        },
+        {
+            "title": "Dagger of Spirits",
+            "type": "Weapon",
+            "url": "55.jpg",
+            "passive": "15-35% Reduced Power cost on all Special Attacks.\nWhen the opponent blocks an incoming Special Attack, turn 30-50% of the blocked damage into Health.\n150-600% Damage boost. Elder Wind Tower only.\n[Fusion Level X] Special Attack 2 and X-ray/Fatal Blow apply Oblivion debuff for 15sec."
+        },
+        {
+            "title": "Matokan Bear Fang",
+            "type": "Weapon",
+            "url": "56.jpg",
+            "passive": "30-50% Critical Hit chance boost.\nCritical Hits on Special Attacks have 20-40% chance to Vampire the damage.\n150-600% Damage boost. Elder Wind Tower only.\n[NIGHTWOLF] At the start of the match and on tag-in, gain Speed for 5-10sec. All Special Attacks have 70% chance to apply Weaken.\n[NIGHTWOLF] [SET] If this is equipped alongside Matokan Snake Skin, any DIAMOND Nightwolf gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] Whenever user resists or applies debuff, gain 100% Critical Hit damage boost for 10sec."
+        },
+        {
+            "title": "Varmint's Ace In The Hole",
+            "type": "Armor",
+            "url": "57.jpg",
+            "passive": "200-300% Recovery boost.\nApply Shield Break on opponent's tag-in for 5-15sec.\n300-1200% Max Health boost. Elder Wind Tower only.\n[ERRON BLACK] For 3 times during the match on tag-in, Erron Black challenges his opponent to duel that they cannot escape for 10-20sec. While the duel lasts, Erron Black has 70% chance to dodge any Special Attack. Each time Erron Black manages to kill his enemy during the duel, he gains 20-30% Critical Hit Chance boost till the end of the match. Erron Black loses if he tags out during the duel.\n[ERRON BLACK] [SET] If this is equipped alongside Varmint's Lucky Hat, any DIAMOND Erron Black gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] Once per match when the character receives fatal damage gain Invulnerability for 10sec and 1 bar of Power for your last shot. Character is not able to tag out during Invulnerability."
+        },
+        {
+            "title": "Favorite Toy",
+            "type": "Weapon",
+            "url": "58.jpg",
+            "passive": "On Special Attack 2 there is a 50-100% chance that the seal will throw his explosive toy at the opponent, applying Cripple and dealing 5% Max Health damage.\n20-40% Damage boost against enemies affected by Cripple.\n150-600% Damage boost. Twisted Tower only.\n[Fusion Level X] 1 Bar of Power on tag-in and at the start of the match when equipped on a starting character."
+        },
+        {
+            "title": "Misfortune Teller",
+            "type": "Accessory",
+            "url": "59.jpg",
+            "passive": "50-100% Chance to apply Curse debuff to the whole opponent team on successful Special Attack 1.\n30-70% Critical Hit chance boost against enemies affected by Curse.\n75-225% Damage boost. Twisted Tower only.\n150-450% Max health boost. Twisted Tower only.\n[Fusion Level X] Misfortune foresight gives a 30% chance to gain Invulnerability for 5sec before any incoming Special Attack."
+        },
+        {
+            "title": "Tamer's Hessian Boots",
+            "type": "Armor",
+            "url": "60.jpg",
+            "passive": "35-55% Max Health boost.\n20-30% Power generation boost.\n300-1200% Max Health boost. Twisted Tower only.\n[SINDEL] Sindel has 50-70% chance to scream when her teammate is being attacked with a Special Attack. The scream deals low damage, applies Slow to the opponents and slightly heals Sindel.\n[SINDEL] [SET] If this is equipped alongside Tamer's Whip, any DIAMOND Sindel gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] If the opponent is affected by any debuff, they deal 40% less damage from Special Attacks against the user."
+        },
+        {
+            "title": "Time Traveler's Arms Cache",
+            "type": "Weapon",
+            "url": "61.jpg",
+            "passive": "50-100% Chance to gain Strengthen after the user performs any Special Attack. Strengthen can stack up to 3 times.\nEach next Special attack deals 5-10% more damage than the previous, stacks up to 5 times.\n300-1200% Max Health boost. Twisted Tower only.\n[TERMINATOR] On opponent's tag-out, there is 40-50% chance that the opponent will be stopped from leaving by a grenade dealing formidable damage and applying Stun for 3sec.\n[TERMINATOR] [SET] If this is equipped alongside Time Traveler's Cool-Factor, any DIAMOND Terminator gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] Special Attacks deal 20% of damage to all opponents."
+        },
+        {
+            "title": "Geek Defense",
+            "type": "Armor",
+            "url": "62.jpg",
+            "passive": "200-400% Recovery boost.\n30-60% Chance to gain Regeneration after performing successful Special Attack 2.\n300-1200% Max Health boost. Klassic Tower only.\n[Fusion Level X] Teammates are healed for 20% (10% for bosses) of the Health restored by the user."
+        },
+        {
+            "title": "Movie Set Star",
+            "type": "Weapon",
+            "url": "63.jpg",
+            "passive": "Apply Blind on tag-in for 10-20sec.\nIf the opponent misses their attack, there is a 20-30% chance that animatronic will assist the user. Animatronic stomps, dealing middle damage.\n150-600% Damage boost. Klassic Tower only.\n[Fusion Level X] Animatronic has a 50% chance to apply Stun to the opponent for 5sec."
+        },
+        {
+            "title": "Restless Ninja's Figure",
+            "type": "Accessory",
+            "url": "64.jpg",
+            "passive": "5-15% Chance to apply Curse on Basic attacks. This Curse can stack up to 2 times.\n50-70% Resistance to all debuffs for the user while the opponent is affected by Snare or Curse.\n75-225% Damage boost. Klassic Tower only.\n150-450% Max health boost. Klassic Tower only.\n[SCORPION] Scorpion has a 10% chance to counter-attack opponent's basic combo attacks by vanishing into the fire, crawling from under the ground and hugging the opponent's legs, dealing fire damage and stealing the opponent's attack 10% for himself. Max. 30-40% stolen attack from each opponent.\n[SCORPION] [SET] If this is equipped alongside Restless Ninja's Call to Arms, any DIAMOND Scorpion gains an ability to perform a Friendship. Once the last opponent's Health is under 25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\n[Fusion Level X] After 20 successful Basic Attacks the next successful Special Attack will inevitably be Critical."
+        },
+        {
+            "title": "Rockin' Bowling Stones",
+            "type": "Weapon",
+            "url": "65.jpg",
+            "passive": "Team gains 15-35% Unblockable chance on Basic Attacks.\nEach acquired bar of Power while tagged-in grants the user 2% Speed boost until the end of the match. Max. amount of stacks: 10-20.\n150-600% Damage boost. Klassic Tower only.\n[TREMOR] Tremor gains Rock Energy after every Combo Ender. Gaining 7-5 Rock Energy stacks causes Rock Overload, which explodes and drains all of the opponent's team power. Receiving unblocked damage or tag-out resets the number of Rock Energy stacks.\n[TREMOR] [SET] If this is equipped alongside Rockin' Token, any DIAMOND or ASCENDED Tremor gains 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] User's damage increases upon losing Health. The more health is lose, the higher the Damage is. Maximum damage boost - 99% at 1% Health."
         }
     ]
 }
