@@ -1478,6 +1478,114 @@
             "type": "Weapon",
             "url": "65.jpg",
             "passive": "Team gains 15-35% Unblockable chance on Basic Attacks.\nEach acquired bar of Power while tagged-in grants the user 2% Speed boost until the end of the match. Max. amount of stacks: 10-20.\n150-600% Damage boost. Klassic Tower only.\n[TREMOR] Tremor gains Rock Energy after every Combo Ender. Gaining 7-5 Rock Energy stacks causes Rock Overload, which explodes and drains all of the opponent's team power. Receiving unblocked damage or tag-out resets the number of Rock Energy stacks.\n[TREMOR] [SET] If this is equipped alongside Rockin' Token, any DIAMOND or ASCENDED Tremor gains 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[Fusion Level X] User's damage increases upon losing Health. The more health is lose, the higher the Damage is. Maximum damage boost - 99% at 1% Health."
+        },
+        {
+            "title": "Kombat Service Emma",
+            "type": "Accessory",
+            "url": "66.jpg",
+            "passive": "Apply Despair on tag-in and every 20-10sec while user is tagged in;\n30-100% chance to apply Shield Break for 7sec before any Special Attack;\n75-225% Damage boost; Vought Tower only.\n150-450% Max Health boost; Vought Tower only.\n[CASSIE CAGE] At the start of the Match and on tag-in, Cassie's dron creates an Energy Bubble equal to 25% of her max health. It applies Dispel, absorbs damage from all Attacks and reduces received Critical damage by 50%. When Energy Barrier depletes it explodes, applying Fracture.\n[CASSIE CAGE] [SET] If this is equipped alongside Kombat Service Sidearm, any DIAMOND or ASCENDED Cassie Cage gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\nDeal 1% max Health damage upon applying Despair from this equipment. Additionally, copy opponent's removed positive buffs for yourself. The copied buffs can stack. Unique personal effects are not affected. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Special Agent's BUD-E",
+            "type": "Weapon",
+            "url": "67.jpg",
+            "passive": "Gain Luck at the start of the match and on tag-in for 10-20sec;\n10% chance to apply Snare on Critical Basic Hits for 5-15sec;\n150-600% Damage boost; Vought Tower only.\n[SONYA BLADE] On every 2 Combo Ender, Sonya Blade's Turret follows-up by shooting an explosive, which applies one of 3 negative effects in sequence for 10-15sec: Blind, Weaken, and Incurability.\n[SONYA BLADE] If an opponent tries to apply one of these effects, 50% chance to reflect the effect back to the opponent.\n[SONYA BLADE] [SET] If this is equipped alongside Special Agent's Fetch Trick, any DIAMOND Sonya Blade gains the ability to perform a Friendship. Once the opponent's Health is below 25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nFor each active debuff on the opponent, the user's Special Attacks power cost is reduced by 10%. Maximum reduction - 50%. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "The Compound",
+            "type": "Weapon",
+            "url": "68.jpg",
+            "passive": "5-15% Lethal Blow Chance boost;\nLethal Blows Vampire 30% of damage up to 30-40% of max Health when below 30-40% Health;\n150-600% Damage boost; Vought Tower only.\nOnce in 10sec seconds while the User is tagged in, apply a random buff to the user for 10sec. Negative effects include Snare, Fracture, and Bane. Positive effects include Shield, Power, and Speed. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "The Patriot Shield",
+            "type": "Armor",
+            "url": "69.jpg",
+            "passive": "30-40% Resistance to all debuffs;\n30-50% Opponent unblockable attack chance reduction;\n300-1200% Max Health boost; Vought Tower only.\nAny Teammate has a 40% chance to reflect 30% of damage on the opponent's Special Attack. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Fools Abductor",
+            "type": "Armor",
+            "url": "70.jpg",
+            "passive": "Reduces active opponent's power generation by 10-20%;\nSteal 20-50% of the opponent's max Attack and max Health if the opponent meets their final death by the user;\n300-1200% Max Health boost; Hellspawn Tower only.\nWhile tagged-in, whenever an opponent tries to apply a positive combat effect to themselves or their team, the effect copy is applied to the user. The copied buffs can stack. Unique personal effects are not affected. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Damnation Visage",
+            "type": "Accessory",
+            "url": "71.jpg",
+            "passive": "20-30% Power generation boost;\n30-100% Chance to gain Strengthen after the user performs any Special Attack. Strengthen can stack up to 3 times.;\n75-225% Damage boost; Hellspawn Tower only.\n150-450% Max Health boost; Hellspawn Tower only.\n75% chance to apply Team Power Drain on tag-in and every 13 seconds while the user is tagged in. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Blazing Training",
+            "type": "Weapon",
+            "url": "72.jpg",
+            "passive": "5-15% Lethal Blow Chance boost;\n50-100% chance to apply Shield Break for 7sec before any Special Attack;\n150-600% Damage boost; Hellspawn Tower only.\n[LIU KANG] Liu Kang gains a stack of Courage after every Combo Ender. Max 4 stacks. For each stack, he has a 15-25% chance to perform Special Attack 1 instead of Combo Ender. Applies Stun on the opponent after SP1 is used this way. The Courage resets after triggering the effect.\n[LIU KANG] [SET] If this is equipped alongside Blazing Gridle, any DIAMOND Liu Kang gains the ability to perform a Friendship. Once the opponent's Health is below 25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nWhile the user is active, gain 10% Damage boost every 4sec, maximum 100%. There is a 25% chance to also apply Blind for 8sec after receiving boost from this effect. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Tempest Lasso",
+            "type": "Weapon",
+            "url": "73.jpg",
+            "passive": "30-50% Basic Attacks unblockable chance;\n50-100% Chance to apply Snare after performing Special Attack 1;\n150-600% Damage boost; Hellspawn Tower only.\n[RAIDEN] 20-40% Chance to counter-attack opponent's Special Attacks with Tempest attack, dealing damage and applying Fire to the whole opponent team.\n[RAIDEN] [SET] If this is equipped alongside Tempest Bangle, any DIAMOND Raiden gains the ability to perform a Friendship. Once the opponent's Health is below 25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nGain 1 Bar of Power and Speed for 5sec on tag-in. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Timeless Sentinel",
+            "type": "Armor",
+            "url": "74.jpg",
+            "passive": "30-50% Chance to drain 10% of the opponent's Max Power on Combo Enders;\nThe user gains Invulnerability for 5-10sec after acquiring 5 power bars. May be activated once in 30sec;\n300-1200% Max Health boost. Tower of Time only.\n[GERAS] Each time Health of Geras drops below 50%, he opens a Time Portal. Time Portal aplies Oblivion on the active opponent for 5-15sec when it is activated and whenever any character tags-in. When Oblivion is applied 3 times, Time Portal ends.\n[GERAS][SET] If this is equipped alongside Timeless Heart, any DIAMOND or ASCENDED Geras gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\nGaining Invulnerability from this equipment applies Snare to the opponent. When this Invulnerability ends, gain Team Dispel. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Smoldering Karambit",
+            "type": "Weapon",
+            "url": "75.jpg",
+            "passive": "5-15% Chance to apply Death Mark on Successful Basic Attacks;\nSuccessful Special Attacks additionally deal 10-20% of damage to all tagged-out opponents;\n150-600% Damage boost. Tower of Time only.\n[SMOKE] Every successful Special Attack has 40-60% chance to apply Heatwave on Smoke for 10sec. While Heatwave is active Smoke deals 5% of character's Attack as damage and recovers 1.5% of Max Health every second.\n[SMOKE][SET] If this is equipped alongside Smoldering Mask, any DIAMOND or ASCENDED Smoke gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n50% Critical Hit Chance boost. Gain Speed for 5sec on tag-in. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "God's Helper Tanuki",
+            "type": "Armor",
+            "url": "76.jpg",
+            "passive": "35-55% Max Health Boost;\nOn user's tag-in, there is a 50-100% chance that the Tanuki joins the user and starts playing drums. White its enchanting rhythm can be heard, the user gets affected by Luck and the opponent gets affected by Weaken. The opponent can use Dispel to get rid of the enchantment and make Tanuki run away;\n300-1200% Max Health boost. White Lotus Tower only.\n[FUJIN] On incoming Special attack or X-ray/Fatal Blow, there is a 40% chance that Fujin will summon a Wind Shield that will not allow this Special Attack to deal more damage than 10% of his Max Health.\n[FUJIN] [SET] If this is equipped alongside God's Helper Kitsune, any DIAMOND Fujin gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\nOnce per match upon receiving fatal damage, the user is saved by Tanuki who possesses the user for 10sec, receiving damage and fighting back in their place. After Tanuki leaves, the next teammate to tag-in can be chosen. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Tsukumogami Demon's Fire",
+            "type": "Weapon",
+            "url": "77.jpg",
+            "passive": "30-40% All Special Attacks unblockable chance;\n30-50% Opponent unblockable attack chance reduction;\n150-600% Damage boost. White Lotus Tower only.\n[ERRON BLACK] When Erron Black does not have enough Power to perform a Special Attack, a sinister demon who lives in his rifle can feast on his blood and help him use health instead of Power to perform his Special Attack (this Special Attack will not be able to trigger Regeneration).\n          The 1st Energy Bar costs 20-30% of Max Health.\n\n          The 2nd Energy Bar costs 40-50% of Max Health.\n\n          The 3rd Energy Bar costs 60-70% of Max Health.\n\n[ERRON BLACK] [SET] If this is equipped alongside Tsukumogami Demon's Heart, any DIAMOND Erron Black gains the ability to perform a Friendship. Once the last opponent's Health is below  25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nAfter a successful Special Attack 2, a demon hexes the opponent with a Spirit Flame. Spirit Flame drains Health and Power from the opponent. The more opponents are affected by Spirit Flame, the more Health and Power is drained. The hex can only be removed by killing the demon, Dispel or the final death of the hexed opponent. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Shintai of the North",
+            "type": "Accessory",
+            "url": "78.jpg",
+            "passive": "80-100% Chance to apply Team Frostbite on Special Attack 2. If the opponent is already affected by Frostbite, the opponent will become affected by Freeze instead;\n50-100% Chance to gain Shield upon applying Frostbite or Freeze;\n75-225% Damage boost. White Lotus Tower only.\n150-450% Max Health boost. White Lotus Tower only.\n1 Bar of Power on tag-in and at the start of the match when equipped on a starting character. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Shintai of Revenge",
+            "type": "Weapon",
+            "url": "79.jpg",
+            "passive": "30-50% Basic Attacks unblockable chance;\n40-60% Chance to apply Shield Break on Block Breaker attack;\n150-600% Damage boost. White Lotus Tower only.\n50% Chance to apply Team Silence and Team Bleed on a successful Special Attack 1 and 2. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Stunt Buddies",
+            "type": "Accessory",
+            "url": "80.jpg",
+            "passive": "For any debuff that the user applies to the opponent, the user has a 20-40% chance to gain Vampire on Basic attacks for 10sec.;\nFor any Blockbreaker attack the user has a 50-100% chance to apply a debuff to the opponent for 10sec. There can only be one such debuff at a time;\n75-225% Damage boost; Action Movie Tower only.\n150-450% Max Health boost; Action Movie Tower only.\n[JOHNNY CAGE] On incoming Special Attack or X-Ray/Fatal Blow Johnny Cage has a 30-50% chance to swap himself with a stunt double who will receive the damage instead of him. This effect can be triggered until the stunt double is out of Health.\n[JOHNNY CAGE] [SET] If this is equipped alongside Stunt Award, any DIAMOND Johnny Cage gains the ability to perform a Friendship. Once the opponent's Health is below 25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nFor every 30% of Max Health lost, the user temporally gains a Protective Buffer for 10sec. The Protective Buffer gets larger depending on the amount of Max Health lost, with a maximum size equal to 50% of the wearer's Max Health at 90% lost Max Health. Activates 3 times per match. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Director's Chair",
+            "type": "Armor",
+            "url": "81.jpg",
+            "passive": "50-100% Chance to gain Dispel on successful Special Attack;\nFor every bar of Power spent by the user's team, the team gains 15-35% Critical Hit Damage boost for 20sec. This Critical Hit Damage boost can stack up to 3 times;\n300-1200% Max Health boost. Action Movie Tower only.\n[THE JOKER] [SET] If this is equipped alongside Director's Makeover, any DIAMOND or ASCENDED Joker gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[THE JOKER] For every teammate's final death, The Joker gains 5-10% Power Generation boost and all incoming attacks damage reduction until the end of the match. The faster the teammate dies, the larger the damage reduction is.\n50% Chance to gain Invulnerability when debuffs were removed by Dispel from the user. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Shintai of Revenge",
+            "type": "Weapon",
+            "url": "82.jpg",
+            "passive": "30-50% Basic Attacks unblockable chance;\n40-60% Chance to apply Shield Break on Block Breaker attack;\n150-600% Damage boost. White Lotus Tower only.\n50% Chance to apply Team Silence and Team Bleed on a successful Special Attack 1 and 2. (Unlocks at fusion level X)"
+        },
+        {
+            "title": "Shintai of Revenge",
+            "type": "Weapon",
+            "url": "83.jpg",
+            "passive": "30-50% Basic Attacks unblockable chance;\n40-60% Chance to apply Shield Break on Block Breaker attack;\n150-600% Damage boost. White Lotus Tower only.\n50% Chance to apply Team Silence and Team Bleed on a successful Special Attack 1 and 2. (Unlocks at fusion level X)"
         }
     ]
 }
