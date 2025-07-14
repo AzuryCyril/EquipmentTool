@@ -24,7 +24,7 @@ const db = getFirestore(app);
 
 let itemsData = [];
 
-const availableTags = ["Damage", "Utility", "Healing", "Crowd Control", "Defense", "Mobility"];
+const availableTags = ["Counter: Frostbite", "Counter: Bleed", "Counter: Fire", "Counter: Regeneration", "Counter: Stun", "Counter: Slow", "Counter: Poison", "Counter: Blind", "Counter: DOTs", "Counter: All Debuffs", "Counter: All Negative effects", "Unblockable Attacks", "Unblockable Special Attacks", "Regeneration","Power Generation","Reduced power cost"];
 
 const rarityOrder = ["common", "uncommon", "rare", "epic"];
 
