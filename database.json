@@ -1093,6 +1093,12 @@
       "type": "Armor",
       "url": "117.jpg",
       "passive": "30-60% Toughness boost;\n[SPAWN] Heal the weakest teammate for 20-40% of damage dealt on Special Attack 2;\n25% Power generation boost. (Unlocks at fusion level X)"
+    },
+    {
+      "title": "Continuum Clock",
+      "type": "Accessory",
+      "url": "118.jpg",
+      "passive": "35% Basic Attacks unblockable chance.\n[GERAS]30% Chance to reflect any debuff back to an opponent. Team debuffs are not affected.\n20% Power generation boost."
     }
   ],
   "epic": [
@@ -1583,16 +1589,52 @@
       "passive": "50-100% Chance to gain Dispel on successful Special Attack;\nFor every bar of Power spent by the user's team, the team gains 15-35% Critical Hit Damage boost for 20sec. This Critical Hit Damage boost can stack up to 3 times;\n300-1200% Max Health boost. Action Movie Tower only.\n[THE JOKER] [SET] If this is equipped alongside Director's Makeover, any DIAMOND or ASCENDED Joker gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[THE JOKER] For every teammate's final death, The Joker gains 5-10% Power Generation boost and all incoming attacks damage reduction until the end of the match. The faster the teammate dies, the larger the damage reduction is.\n50% Chance to gain Invulnerability when debuffs were removed by Dispel from the user. (Unlocks at fusion level X)"
     },
     {
-      "title": "Shintai of Revenge",
+      "title": "Primal Bait",
       "type": "Weapon",
       "url": "82.jpg",
-      "passive": "30-50% Basic Attacks unblockable chance;\n40-60% Chance to apply Shield Break on Block Breaker attack;\n150-600% Damage boost. White Lotus Tower only.\n50% Chance to apply Team Silence and Team Bleed on a successful Special Attack 1 and 2. (Unlocks at fusion level X)"
+      "passive": "40-50% Chance to apply Blind on Successful Special Attack 1;\n30-60% Chance to disable one random piece of opponent's equipment for 13sec on any Special Attack;\n150-600% Damage boost; Action Movie Tower only.\n70% Chance for opponent's attack to reflect 50% damage and distribute it evenly to the whole enemy team if this attack was avoided by the user. (Unlocks at fusion level X)"
     },
     {
-      "title": "Shintai of Revenge",
+      "title": "Rage Wrench",
       "type": "Weapon",
       "url": "83.jpg",
-      "passive": "30-50% Basic Attacks unblockable chance;\n40-60% Chance to apply Shield Break on Block Breaker attack;\n150-600% Damage boost. White Lotus Tower only.\n50% Chance to apply Team Silence and Team Bleed on a successful Special Attack 1 and 2. (Unlocks at fusion level X)"
+      "passive": "30-50% Chance to drain 10% of the opponent's current Max Power on Combo Enders;\nEach next hit that was not avoided by the opponent gives a 5% Basic Attack Damage boost. The maximum boost is 50-100%. Resets upon taking a hit and tag-out;\n150-600% Damage boost; Action Movie Tower only.\nThe power that was drained on Combo Enders is stolen for the user. (Unlocks at fusion level X)"
+    },
+    {
+      "title": "Coldhearted Ninja's Dark Cryomancy",
+      "type": "Armor",
+      "url": "84.jpg",
+      "passive": "40-50% Chance to apply Curse when hitting a Frozen opponent;\n40-60% Opponent unblockable attack chance reduction while he is affected by Curse or a Death Mark.\n[SUB-ZERO] Sub-Zero has a 60-70% chance to escape opponent's Special Attack. He jumps back, leaving a frozen clone in his place. The clone shatters at a hit, dealing medium damage and leaving the opponent Frozen at the end. If the escape was successful, a 10sec cooldown initiates.\n[SUB-ZERO] [SET] If this is equipped alongside Coldhearted Ninja's Cruelty, any DIAMOND Sub-Zero gains the ability to perform a Friendship. Once the opponent's Health is below  25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nEach successful Critical Hit reduces the damage received from the opponent by 2%. Max reduction - 40%. Resets upon user's tag-out. (Unlocks at fusion level X)"
+    },
+    {
+      "title": "Necromancer's Death Favor",
+      "type": "Armor",
+      "url": "85.jpg",
+      "passive": "35-55% Max Health boost;\n30-50% Opponent unblockable attack chance reduction;\n[QUAN CHI] Green Skull appears on the head of the current enemy with a 50-100% chance after performing Special Attack 1. This skull charges with green energy after the user's every successful Combo Ender. It explodes after the third Combo Ender, applying Slow and dealing high damage to the opponent.\n[QUAN CHI] [SET] If this is equipped alongside Necromancer's Forbidden Book, any DIAMOND Quan Chi gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\nEach next Special Attack deals 15% more damage than the previous, stacks up to 4 times. (Unlocks at fusion level X)"
+    },
+    {
+      "title": "Royalguard's Emerald Haze",
+      "type": "Accessory",
+      "url": "86.jpg",
+      "passive": "30-40% Basic Attack unblockable chance;\nApply Cripple on opponent's tag-in for 5-10sec.\n[JADE] Before tagging out, Jade has a 40-80% chance to perform an unblockable attack that removes all opponent's buffs and resets timer on all debuffs and DOTs applied to the opponent.\n[JADE] [SET] If this is equipped alongside Royalguard's Cowl, any DIAMOND Jade gains the ability to perform a Friendship. Once the opponent's Health is below  25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nEach time the opponent tries to apply a debuff to the user, there is a 65% chance the debuff will be resisted and Bleed or Poison is applied to the opponent. (Unlocks at fusion level X)"
+    },
+    {
+      "title": "Enigmatic Well of Souls",
+      "type": "Weapon",
+      "url": "87.jpg",
+      "passive": "30-50% Basic Attacks unblockable chance while the character is not affected by any debuff;\n50-100% Chance to apply Curse on Combo Ender for 20sec;\n[SHANG TSUNG] On tag-in Shang Tsung invokes the Well of Souls to the opponent. It applies a random debuff once in 20-10sec. The Well of Souls disappears on the opponent's tag-out.\n[SHANG TSUNG] [SET] If this is equipped alongside Enigmatic Lantern, any DIAMOND Shang Tsung gains the ability to perform a Friendship. Once the last opponent's Health is below  25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nAfter 25 successful Critical Attacks, Power Drain applies to the opponent. (Unlocks at fusion level X)"
+    },
+    {
+      "title": "Midnight Stalker's Curse",
+      "type": "Accessory",
+      "url": "88.jpg",
+      "passive": "Successful Basic Attacks have a 20-30% chance to Vampire 60% damage;\nGain Dispel every 20-10sec;\n[JASON VOORHEES] [SET] If this is equipped alongside Midnight Stalker's Sight, any DIAMOND or ASCENDED Jason Voorhees gains a 40% chance to perform a Special Combo Ender dealing massive damage. If the last opponent is under 25% health, a Brutality is performed instead of the Special Combo Ender, ending the fight immediately.\n[JASON VOORHEES] Under 25% Health Jason applies Stun on the opponent and enters Frenzy for 5-15sec. While it is active, he gains Invulnerability and 125% Damage Boost. The Frenzy prolongs for 5 seconds each time the user's attack would potentially kill the opponent. Once per match.\nFor each 2 Vampire from this equipment, the user gains Speed for 2 sec. (Unlocks at fusion level X)"
+    },
+    {
+      "title": "Noble Dainty Gesture",
+      "type": "Accessory",
+      "url": "89.jpg",
+      "passive": "30-50% Critical Hit chance boost;\n30-50% Special Attack damage boost against opponents affected by any debuff;\n[KITANA] Each 1 Critical Hit applies a Wound to the opponent. Each 15-5th Wound stack applies a negative effect in the sequence: Bleed, Cripple, Slow. User's successful Special Attack explodes all Wounds, inflicting additional damage on the opponent and applying Shield on the user. The more stacks you explode, the more damage opponent will receive and the more powerful Shield will be. Max amount of stacks: 15-45. Resets upon an opponent's tag out.\n[KITANA] [SET] If this is equipped alongside Noble Graceful Tread, any DIAMOND Kitana gains the ability to perform a Friendship. Once the opponent's Health is below  25% and the Friendship bar is filled up by performing multiple Special Attacks, a Friendship can be performed, ending the fight immediately.\nFor each active debuff on the opponent, user's Special Attack power cost is reduced by 10%. Maximum reduction - 50%. (Unlocks at fusion level X)"
     }
   ]
 }

@@ -1,5 +1,6 @@
 body{
     margin: 15px auto;
+    background-image: url(pictures/background.png);
     width: 90%;
      display: flex;
     gap: 20px; /* optional: adds spacing between the sections */
@@ -8,11 +9,13 @@ body{
 
 .filter1{
   width: 200px;
+  color: white;
 }
 .items{
     display: flex;
     flex-wrap: wrap;
     flex: 1;
+    color: white;
 }
 .items article{
     width: 200px;
@@ -26,15 +29,18 @@ body{
 }
 
 .tags-container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 0.5rem;
 }
 
 .tag-label {
   font-weight: bold;
   margin-right: 0.25rem;
+  font-size: 14px
 }
 
 .tags {
+  
   display: inline-flex;
   flex-wrap: wrap;
   gap: 6px;
@@ -42,15 +48,20 @@ body{
 }
 
 .tag {
-  background-color: #ddd;
+  background-color: #445969;
   padding: 3px 10px;
   border-radius: 12px;
   font-size: 12px;
 }
 
 .add-tag-btn {
-  margin-left: 8px;
+  margin: 8px;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #454f57;
+  color: white;
 }
 
 .tag-dropdown-container {
