@@ -1,4 +1,6 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import {
+  initializeApp
+} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 import {
   getFirestore,
   collection,
@@ -24,7 +26,7 @@ const db = getFirestore(app);
 
 let itemsData = [];
 
-const availableTags = ["Counter: Frostbite", "Counter: Bleed", "Counter: Fire", "Counter: Regeneration", "Counter: Stun", "Counter: Slow", "Counter: Poison", "Counter: Blind", "Counter: DOTs", "Counter: All Debuffs", "Counter: All Negative effects", "Unblockable Attacks", "Unblockable Special Attacks", "Regeneration","Power Generation","Reduced power cost"];
+const availableTags = ["Counter: Power Drain","Counter: Freeze","Counter: Frostbite", "Counter: Bleed", "Counter: Fire", "Counter: Dark Magic", "Counter: Regeneration", "Counter: Stun", "Counter: Slow", "Counter: Poison", "Counter: Blind", "Counter: Snare", "Counter: DOTs", "Counter: All Debuffs", "Counter: All Negative effects", "Unblockable Attacks", "Unblockable Special Attacks", "Regeneration", "Power Generation", "Reduced power cost", "Shield", "Resurrection", "Invulnerability","Power Drain","Weaken","Dispel","Despair","Shield Break", "Freeze","Frostbite", "Bleed", "Fire", "Poison", "Snare", "Slow", "Stun", "Cripple", "Luck", "Strengthen", "Special 1 effect", "Special 2 effect", "Tag-in", "Tag-out", "Bars of Power","Team Effect"];
 
 const rarityOrder = ["common", "uncommon", "rare", "epic"];
 
@@ -58,6 +60,7 @@ async function fetchItems() {
 
     renderItems();
     setupSearchBar();
+    setupTagFilter();
   } catch (error) {
     console.error("Firestore fetch error:", error);
   }
@@ -65,23 +68,27 @@ async function fetchItems() {
 
 fetchItems();
 
-function renderItems(query = "") {
+function renderItems(query = "", activeFilters = []) {
   const container = document.querySelector(".items");
   container.innerHTML = "";
 
   itemsData.forEach(item => {
     const passiveText = (item.passive || "").toLowerCase();
-    if (query === "" || passiveText.includes(query)) {
+    const itemTags = item.tags || [];
+
+    const matchesQuery = query === "" || passiveText.includes(query);
+    const matchesFilters =
+      activeFilters.length === 0 || activeFilters.every(tag => itemTags.includes(tag));
+
+    if (matchesQuery && matchesFilters) {
       const formattedPassive = (item.passive || "").replaceAll('\n', '<br>');
       const itemId = item.id;
-
-      // Build image URL using url field from Firestore + rarity folder prefix
       const imgSrc = `pictures/${item.rarity}/${item.url}`;
 
       const optionsHTML = availableTags.map(tag =>
         `<option value="${tag}">${tag}</option>`).join("");
 
-      const tagsHTML = (item.tags || []).map(tag =>
+      const tagsHTML = itemTags.map(tag =>
         `<span class="tag">${tag}</span>`).join("");
 
       container.insertAdjacentHTML('beforeend', `
@@ -110,12 +117,23 @@ function renderItems(query = "") {
 }
 
 
+
 function setupSearchBar() {
   const searchBar = document.getElementById("searchBar");
+  const checkboxes = document.querySelectorAll('input[name="filter"]');
+
+  const getActiveFilters = () => {
+    return Array.from(checkboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
+  };
+
   if (!searchBar) return;
+
   searchBar.addEventListener("input", event => {
     const query = event.target.value.toLowerCase();
-    renderItems(query);
+    const activeFilters = getActiveFilters();
+    renderItems(query, activeFilters);
   });
 }
 
@@ -177,5 +195,25 @@ function setupTagControls() {
         dropdown.classList.add('hidden');
       }
     };
+  });
+}
+
+
+function setupTagFilter() {
+  const checkboxes = document.querySelectorAll('input[name="filter"]');
+  const searchBar = document.getElementById("searchBar");
+
+  const getActiveFilters = () => {
+    return Array.from(checkboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
+  };
+
+  checkboxes.forEach(cb => {
+    cb.addEventListener("change", () => {
+      const query = searchBar.value.toLowerCase();
+      const activeFilters = getActiveFilters();
+      renderItems(query, activeFilters);
+    });
   });
 }
