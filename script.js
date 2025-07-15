@@ -26,7 +26,7 @@ const db = getFirestore(app);
 
 let itemsData = [];
 
-const availableTags = ["Counter: Power Drain","Counter: Freeze","Counter: Frostbite", "Counter: Bleed", "Counter: Fire", "Counter: Dark Magic", "Counter: Regeneration", "Counter: Stun", "Counter: Slow", "Counter: Poison", "Counter: Blind", "Counter: Snare", "Counter: DOTs", "Counter: All Debuffs", "Counter: All Negative effects", "Unblockable Attacks", "Unblockable Special Attacks", "Regeneration", "Power Generation", "Reduced power cost", "Shield", "Resurrection", "Invulnerability","Power Drain","Weaken","Dispel","Despair","Shield Break", "Freeze","Frostbite", "Bleed", "Fire", "Poison", "Snare", "Slow", "Stun", "Cripple", "Luck", "Strengthen", "Special 1 effect", "Special 2 effect", "Tag-in", "Tag-out", "Bars of Power","Team Effect"];
+const availableTags = ["Counter: Evade","Counter: Power Drain","Counter: Freeze","Counter: Frostbite", "Counter: Bleed", "Counter: Fire", "Counter: Dark Magic", "Counter: Regeneration","Counter: Resurrection", "Counter: Stun", "Counter: Slow", "Counter: Poison", "Counter: Blind", "Counter: Snare", "Counter: DOTs", "Counter: All Debuffs", "Counter: All Negative effects", "Unblockable Attacks", "Unblockable Special Attacks", "Regeneration", "Power Generation", "Reduced power cost", "Shield", "Resurrection", "Invulnerability","Evade","Power Drain","Weaken","Dispel","Despair","Shield Break", "Freeze","Frostbite", "Bleed", "Fire", "Poison", "Snare", "Slow", "Stun","Blind","Speed","Curse", "Cripple", "Luck", "Strengthen", "Special 1 effect", "Special 2 effect","X-ray effect", "Tag-in", "Tag-out", "Bars of Power","Team Effect"];
 
 const rarityOrder = ["common", "uncommon", "rare", "epic"];
 
