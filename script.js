@@ -26,7 +26,7 @@ const db = getFirestore(app);
 
 let itemsData = [];
 
-const availableTags = ["Counter: Evade","Counter: Power Drain","Counter: Freeze","Counter: Frostbite", "Counter: Bleed", "Counter: Fire", "Counter: Dark Magic", "Counter: Regeneration","Counter: Resurrection", "Counter: Stun", "Counter: Slow", "Counter: Poison", "Counter: Blind", "Counter: Snare", "Counter: DOTs", "Counter: All Debuffs", "Counter: All Negative effects", "Unblockable Attacks", "Unblockable Special Attacks", "Regeneration", "Power Generation", "Reduced power cost", "Shield", "Resurrection", "Invulnerability","Evade","Power Drain","Weaken","Dispel","Despair","Shield Break", "Freeze","Frostbite", "Bleed", "Fire", "Poison", "Snare", "Slow", "Stun","Blind","Speed","Curse", "Cripple", "Luck", "Strengthen", "Special 1 effect", "Special 2 effect","X-ray effect", "Tag-in", "Tag-out", "Bars of Power","Team Effect"];
+const availableTags = ["Counter: Evade","Counter: Power Drain","Counter: Freeze","Counter: Frostbite", "Counter: Bleed", "Counter: Fire", "Counter: Dark Magic", "Counter: Regeneration","Counter: Resurrection", "Counter: Stun", "Counter: Slow", "Counter: Poison", "Counter: Blind", "Counter: Snare", "Counter: DOTs", "Counter: All Debuffs", "Counter: All Negative effects","Shield","Power Drain","Weaken","Despair","Shield Break", "Freeze","Frostbite", "Bleed", "Fire", "Poison", "Snare", "Slow", "Stun","Blind","Curse","Cripple","Unblockable Attacks", "Unblockable Special Attacks", "Regeneration", "Power Generation", "Reduced power cost","Resurrection", "Invulnerability","Evade","Dispel","Speed", "Luck", "Strengthen", "Special 1 effect", "Special 2 effect","X-ray effect", "Tag-in", "Tag-out", "Bars of Power","Team Effect"];
 
 const rarityOrder = ["common", "uncommon", "rare", "epic"];
 
@@ -68,19 +68,22 @@ async function fetchItems() {
 
 fetchItems();
 
-function renderItems(query = "", activeFilters = []) {
+function renderItems(query = "", activeFilters = [], activeTypes = []) {
   const container = document.querySelector(".items");
   container.innerHTML = "";
 
   itemsData.forEach(item => {
     const passiveText = (item.passive || "").toLowerCase();
     const itemTags = item.tags || [];
+    const itemType = item.type || "";  // "Weapon", "Armor", etc.
 
     const matchesQuery = query === "" || passiveText.includes(query);
     const matchesFilters =
       activeFilters.length === 0 || activeFilters.every(tag => itemTags.includes(tag));
+    const matchesTypes =
+      activeTypes.length === 0 || activeTypes.includes(itemType);
 
-    if (matchesQuery && matchesFilters) {
+    if (matchesQuery && matchesFilters && matchesTypes) {
       const formattedPassive = (item.passive || "").replaceAll('\n', '<br>');
       const itemId = item.id;
       const imgSrc = `pictures/${item.rarity}/${item.url}`;
@@ -118,22 +121,15 @@ function renderItems(query = "", activeFilters = []) {
 
 
 
+
 function setupSearchBar() {
   const searchBar = document.getElementById("searchBar");
-  const checkboxes = document.querySelectorAll('input[name="filter"]');
-
-  const getActiveFilters = () => {
-    return Array.from(checkboxes)
-      .filter(cb => cb.checked)
-      .map(cb => cb.value);
-  };
-
   if (!searchBar) return;
 
   searchBar.addEventListener("input", event => {
     const query = event.target.value.toLowerCase();
-    const activeFilters = getActiveFilters();
-    renderItems(query, activeFilters);
+    const { tags, types } = getActiveFilters();
+    renderItems(query, tags, types);
   });
 }
 
@@ -200,20 +196,37 @@ function setupTagControls() {
 
 
 function setupTagFilter() {
-  const checkboxes = document.querySelectorAll('input[name="filter"]');
+  const tagCheckboxes = document.querySelectorAll('input[name="filter"]');
+  const typeCheckboxes = document.querySelectorAll('input[name="itemType"]');
   const searchBar = document.getElementById("searchBar");
 
-  const getActiveFilters = () => {
-    return Array.from(checkboxes)
-      .filter(cb => cb.checked)
-      .map(cb => cb.value);
+  const updateFilteredItems = () => {
+    const query = searchBar.value.toLowerCase();
+    const { tags, types } = getActiveFilters();
+    renderItems(query, tags, types);
   };
 
-  checkboxes.forEach(cb => {
-    cb.addEventListener("change", () => {
-      const query = searchBar.value.toLowerCase();
-      const activeFilters = getActiveFilters();
-      renderItems(query, activeFilters);
-    });
+  tagCheckboxes.forEach(cb => {
+    cb.addEventListener("change", updateFilteredItems);
+  });
+
+  typeCheckboxes.forEach(cb => {
+    cb.addEventListener("change", updateFilteredItems);
   });
 }
+
+function getActiveFilters() {
+  const tagCheckboxes = document.querySelectorAll('input[name="filter"]');
+  const typeCheckboxes = document.querySelectorAll('input[name="itemType"]');
+
+  const tags = Array.from(tagCheckboxes)
+    .filter(cb => cb.checked)
+    .map(cb => cb.value);
+
+  const types = Array.from(typeCheckboxes)
+    .filter(cb => cb.checked)
+    .map(cb => cb.value);
+
+  return { tags, types };
+}
+

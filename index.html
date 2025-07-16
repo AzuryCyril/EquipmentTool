@@ -11,105 +11,203 @@
 
 <body>
   <section class="filter1">
+
+<!-- Top-level item type checkboxes with icons -->
+<div style="display: flex; gap: 1.5em; margin-bottom: 1.5em; align-items: center;">
+  <label style="display: flex; align-items: center; gap: 0.3em; cursor: pointer;">
+    <input type="checkbox" id="weapon" name="itemType" value="Weapon">
+    ⚔️
+  </label>
+
+  <label style="display: flex; align-items: center; gap: 0.3em; cursor: pointer;">
+    <input type="checkbox" id="armor" name="itemType" value="Armor">
+    🛡️
+  </label>
+
+  <label style="display: flex; align-items: center; gap: 0.3em; cursor: pointer;">
+    <input type="checkbox" id="accessory" name="itemType" value="Accessory">
+    💍
+  </label>
+</div>
+
+
     <input type="text" id="searchBar" placeholder="Search for cards">
+
+
     <form>
-  <input type="checkbox" id="counter-frostbite" name="filter" value="Counter: Frostbite">
-  <label for="counter-frostbite">Counter: Frostbite</label><br>
+      <!-- Counter Section -->
+      <h3>Counter</h3>
+      <div>
+        <input type="checkbox" id="counter-evade" name="filter" value="Counter: Evade">
+        <label for="counter-evade">Counter: Evade</label><br>
 
-  <input type="checkbox" id="counter-bleed" name="filter" value="Counter: Bleed">
-  <label for="counter-bleed">Counter: Bleed</label><br>
+        <input type="checkbox" id="counter-power-drain" name="filter" value="Counter: Power Drain">
+        <label for="counter-power-drain">Counter: Power Drain</label><br>
 
-  <input type="checkbox" id="counter-fire" name="filter" value="Counter: Fire">
-  <label for="counter-fire">Counter: Fire</label><br>
+        <input type="checkbox" id="counter-freeze" name="filter" value="Counter: Freeze">
+        <label for="counter-freeze">Counter: Freeze</label><br>
 
-  <input type="checkbox" id="counter-dark-magic" name="filter" value="Counter: Dark Magic">
-  <label for="counter-dark-magic">Counter: Dark Magic</label><br>
+        <input type="checkbox" id="counter-frostbite" name="filter" value="Counter: Frostbite">
+        <label for="counter-frostbite">Counter: Frostbite</label><br>
 
-  <input type="checkbox" id="counter-regeneration" name="filter" value="Counter: Regeneration">
-  <label for="counter-regeneration">Counter: Regeneration</label><br>
+        <input type="checkbox" id="counter-bleed" name="filter" value="Counter: Bleed">
+        <label for="counter-bleed">Counter: Bleed</label><br>
 
-  <input type="checkbox" id="counter-stun" name="filter" value="Counter: Stun">
-  <label for="counter-stun">Counter: Stun</label><br>
+        <input type="checkbox" id="counter-fire" name="filter" value="Counter: Fire">
+        <label for="counter-fire">Counter: Fire</label><br>
 
-  <input type="checkbox" id="counter-slow" name="filter" value="Counter: Slow">
-  <label for="counter-slow">Counter: Slow</label><br>
+        <input type="checkbox" id="counter-dark-magic" name="filter" value="Counter: Dark Magic">
+        <label for="counter-dark-magic">Counter: Dark Magic</label><br>
 
-  <input type="checkbox" id="counter-poison" name="filter" value="Counter: Poison">
-  <label for="counter-poison">Counter: Poison</label><br>
+        <input type="checkbox" id="counter-regeneration" name="filter" value="Counter: Regeneration">
+        <label for="counter-regeneration">Counter: Regeneration</label><br>
 
-  <input type="checkbox" id="counter-blind" name="filter" value="Counter: Blind">
-  <label for="counter-blind">Counter: Blind</label><br>
+        <input type="checkbox" id="counter-resurrection" name="filter" value="Counter: Resurrection">
+        <label for="counter-resurrection">Counter: Resurrection</label><br>
 
-  <input type="checkbox" id="counter-dots" name="filter" value="Counter: DOTs">
-  <label for="counter-dots">Counter: DOTs</label><br>
+        <input type="checkbox" id="counter-stun" name="filter" value="Counter: Stun">
+        <label for="counter-stun">Counter: Stun</label><br>
 
-  <input type="checkbox" id="counter-all-debuffs" name="filter" value="Counter: All Debuffs">
-  <label for="counter-all-debuffs">Counter: All Debuffs</label><br>
+        <input type="checkbox" id="counter-slow" name="filter" value="Counter: Slow">
+        <label for="counter-slow">Counter: Slow</label><br>
 
-  <input type="checkbox" id="counter-all-negative-effects" name="filter" value="Counter: All Negative effects">
-  <label for="counter-all-negative-effects">Counter: All Negative effects</label><br>
+        <input type="checkbox" id="counter-poison" name="filter" value="Counter: Poison">
+        <label for="counter-poison">Counter: Poison</label><br>
 
-  <input type="checkbox" id="unblockable-attacks" name="filter" value="Unblockable Attacks">
-  <label for="unblockable-attacks">Unblockable Attacks</label><br>
+        <input type="checkbox" id="counter-blind" name="filter" value="Counter: Blind">
+        <label for="counter-blind">Counter: Blind</label><br>
 
-  <input type="checkbox" id="unblockable-special-attacks" name="filter" value="Unblockable Special Attacks">
-  <label for="unblockable-special-attacks">Unblockable Special Attacks</label><br>
+        <input type="checkbox" id="counter-snare" name="filter" value="Counter: Snare">
+        <label for="counter-snare">Counter: Snare</label><br>
 
-  <input type="checkbox" id="regeneration" name="filter" value="Regeneration">
-  <label for="regeneration">Regeneration</label><br>
+        <input type="checkbox" id="counter-dots" name="filter" value="Counter: DOTs">
+        <label for="counter-dots">Counter: DOTs</label><br>
 
-  <input type="checkbox" id="power-generation" name="filter" value="Power Generation">
-  <label for="power-generation">Power Generation</label><br>
+        <input type="checkbox" id="counter-all-debuffs" name="filter" value="Counter: All Debuffs">
+        <label for="counter-all-debuffs">Counter: All Debuffs</label><br>
 
-  <input type="checkbox" id="reduced-power-cost" name="filter" value="Reduced power cost">
-  <label for="reduced-power-cost">Reduced power cost</label><br>
+        <input type="checkbox" id="counter-all-negative-effects" name="filter" value="Counter: All Negative effects">
+        <label for="counter-all-negative-effects">Counter: All Negative effects</label>
+      </div>
 
-  <input type="checkbox" id="shield" name="filter" value="Shield">
-  <label for="shield">Shield</label><br>
+      <!-- Give Section -->
+      <h3>Give</h3>
+      <div>
+        <input type="checkbox" id="shield" name="filter" value="Shield">
+        <label for="shield">Shield</label><br>
 
-  <input type="checkbox" id="resurrection" name="filter" value="Resurrection">
-  <label for="resurrection">Resurrection</label><br>
+        <input type="checkbox" id="power-drain" name="filter" value="Power Drain">
+        <label for="power-drain">Power Drain</label><br>
 
-  <input type="checkbox" id="freeze" name="filter" value="Freeze">
-  <label for="freeze">Freeze</label><br>
+        <input type="checkbox" id="weaken" name="filter" value="Weaken">
+        <label for="weaken">Weaken</label><br>
 
-  <input type="checkbox" id="bleed" name="filter" value="Bleed">
-  <label for="bleed">Bleed</label><br>
+        <input type="checkbox" id="despair" name="filter" value="Despair">
+        <label for="despair">Despair</label><br>
 
-  <input type="checkbox" id="fire" name="filter" value="Fire">
-  <label for="fire">Fire</label><br>
+        <input type="checkbox" id="shield-break" name="filter" value="Shield Break">
+        <label for="shield-break">Shield Break</label><br>
 
-  <input type="checkbox" id="poison" name="filter" value="Poison">
-  <label for="poison">Poison</label><br>
+        <input type="checkbox" id="freeze" name="filter" value="Freeze">
+        <label for="freeze">Freeze</label><br>
 
-  <input type="checkbox" id="slow" name="filter" value="Slow">
-  <label for="slow">Slow</label><br>
+        <input type="checkbox" id="frostbite" name="filter" value="Frostbite">
+        <label for="frostbite">Frostbite</label><br>
 
-  <input type="checkbox" id="stun" name="filter" value="Stun">
-  <label for="stun">Stun</label><br>
+        <input type="checkbox" id="bleed" name="filter" value="Bleed">
+        <label for="bleed">Bleed</label><br>
 
-  <input type="checkbox" id="luck" name="filter" value="Luck">
-  <label for="luck">Luck</label><br>
+        <input type="checkbox" id="fire" name="filter" value="Fire">
+        <label for="fire">Fire</label><br>
 
-  <input type="checkbox" id="strengthen" name="filter" value="Strengthen">
-  <label for="strengthen">Strengthen</label><br>
+        <input type="checkbox" id="poison" name="filter" value="Poison">
+        <label for="poison">Poison</label><br>
 
-  <input type="checkbox" id="special-1-effect" name="filter" value="Special 1 effect">
-  <label for="special-1-effect">Special 1 effect</label><br>
+        <input type="checkbox" id="snare" name="filter" value="Snare">
+        <label for="snare">Snare</label><br>
 
-  <input type="checkbox" id="special-2-effect" name="filter" value="Special 2 effect">
-  <label for="special-2-effect">Special 2 effect</label><br>
+        <input type="checkbox" id="slow" name="filter" value="Slow">
+        <label for="slow">Slow</label><br>
 
-  <input type="checkbox" id="tag-in" name="filter" value="Tag-in">
-  <label for="tag-in">Tag-in</label><br>
+        <input type="checkbox" id="stun" name="filter" value="Stun">
+        <label for="stun">Stun</label><br>
 
-  <input type="checkbox" id="tag-out" name="filter" value="Tag-out">
-  <label for="tag-out">Tag-out</label><br>
-</form>
+        <input type="checkbox" id="blind" name="filter" value="Blind">
+        <label for="blind">Blind</label><br>
+
+        <input type="checkbox" id="curse" name="filter" value="Curse">
+        <label for="curse">Curse</label><br>
+
+        <input type="checkbox" id="cripple" name="filter" value="Cripple">
+        <label for="cripple">Cripple</label>
+      </div>
+
+      <!-- Miscellaneous Section -->
+      <h3>Miscellaneous</h3>
+      <div>
+        <input type="checkbox" id="unblockable-attacks" name="filter" value="Unblockable Attacks">
+        <label for="unblockable-attacks">Unblockable Attacks</label><br>
+
+        <input type="checkbox" id="unblockable-special-attacks" name="filter" value="Unblockable Special Attacks">
+        <label for="unblockable-special-attacks">Unblockable Special Attacks</label><br>
+
+        <input type="checkbox" id="regeneration" name="filter" value="Regeneration">
+        <label for="regeneration">Regeneration</label><br>
+
+        <input type="checkbox" id="power-generation" name="filter" value="Power Generation">
+        <label for="power-generation">Power Generation</label><br>
+
+        <input type="checkbox" id="reduced-power-cost" name="filter" value="Reduced power cost">
+        <label for="reduced-power-cost">Reduced power cost</label><br>
+
+        <input type="checkbox" id="resurrection" name="filter" value="Resurrection">
+        <label for="resurrection">Resurrection</label><br>
+
+        <input type="checkbox" id="invulnerability" name="filter" value="Invulnerability">
+        <label for="invulnerability">Invulnerability</label><br>
+
+        <input type="checkbox" id="evade" name="filter" value="Evade">
+        <label for="evade">Evade</label><br>
+
+        <input type="checkbox" id="dispel" name="filter" value="Dispel">
+        <label for="dispel">Dispel</label><br>
+
+        <input type="checkbox" id="speed" name="filter" value="Speed">
+        <label for="speed">Speed</label><br>
+
+        <input type="checkbox" id="luck" name="filter" value="Luck">
+        <label for="luck">Luck</label><br>
+
+        <input type="checkbox" id="strengthen" name="filter" value="Strengthen">
+        <label for="strengthen">Strengthen</label><br>
+
+        <input type="checkbox" id="special-1-effect" name="filter" value="Special 1 effect">
+        <label for="special-1-effect">Special 1 effect</label><br>
+
+        <input type="checkbox" id="special-2-effect" name="filter" value="Special 2 effect">
+        <label for="special-2-effect">Special 2 effect</label><br>
+
+        <input type="checkbox" id="xray-effect" name="filter" value="X-ray effect">
+        <label for="xray-effect">X-ray effect</label><br>
+
+        <input type="checkbox" id="tag-in" name="filter" value="Tag-in">
+        <label for="tag-in">Tag-in</label><br>
+
+        <input type="checkbox" id="tag-out" name="filter" value="Tag-out">
+        <label for="tag-out">Tag-out</label><br>
+
+        <input type="checkbox" id="bars-of-power" name="filter" value="Bars of Power">
+        <label for="bars-of-power">Bars of Power</label><br>
+
+        <input type="checkbox" id="team-effect" name="filter" value="Team Effect">
+        <label for="team-effect">Team Effect</label>
+      </div>
+    </form>
+
 
   </section>
   <section class="items"></section>
-  
+
 
   <!-- Your script should import Firebase internally -->
   <script type="module" src="script.js"></script>

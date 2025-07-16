@@ -10,6 +10,27 @@ body{
 .filter1{
   width: 200px;
   color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filter1 form h3{
+  margin: 1.5em 0 0.5em 0;
+}
+
+.filter1 form input{
+  margin: 0.4em 0;
+}
+
+#searchBar{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #1c1f29;
+  color: white;
+  border: 1px solid white;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
 }
 .items{
     display: flex;
